@@ -40,7 +40,7 @@ def clear():
 
 if __name__ == "__main__":
     
-    """reate CTk window like you do with the Tk window"""
+    """Create CTk window like you do with the Tk window"""
     root = customtkinter.CTk()  
     root.geometry("300x470")
     root.eval('tk::PlaceWindow %s center' % root.winfo_toplevel())
