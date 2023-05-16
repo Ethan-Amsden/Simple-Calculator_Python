@@ -105,7 +105,7 @@ if __name__ == "__main__":
     btnEquals = Button(root, background='black', foreground='white',  text='=', command=equals)
     btnEquals.grid(row=4, column=2, sticky="nsew")
 
-    btnDivision = Button(root, background='black', foreground='white',  text='/', command=lambda: click(1))
+    btnDivision = Button(root, background='black', foreground='white',  text='/', command=lambda: click('/'))
     btnDivision.grid(row=4, column=3, columnspan=2, sticky="nsew")
 
     """Row 5 contains the clear button"""
